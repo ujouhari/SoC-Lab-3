@@ -18,6 +18,10 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
+
+
+//Same transmitter module as Lab 2
+
 module UART_Transmitter(clk,rstb, CSn, WE, data_in, dbits, 
 data_out,shift, shifting, txready, txout);
 
