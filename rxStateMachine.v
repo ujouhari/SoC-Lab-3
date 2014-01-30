@@ -81,6 +81,10 @@ presentData <= nextData;
 presentCount <= nextCount;
 end
 
+
+// Receiver design based on state machine.
+
+
 always @(*)
 
 case (presentState)
